@@ -1,0 +1,36 @@
+ /* .nav{
+    justify-content: center;
+    display: flex;
+ }*/
+ #container{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 50px;
+ }
+ .Navbar{
+    width: 75%;
+    color: #38ada9;
+ }
+ .nav-item{
+    margin: auto  ;
+    font-size: 20pt;
+    padding-left: 30px;
+    
+} 
+img{
+    margin-left: 25px;
+}
+ .navbar-brand{
+   
+    width: 100px;
+ }
+ .input-group{    
+    width: 60px;
+    margin: 10px ;
+    margin-right: 40px;
+    border:  #38ada9;
+ }
+ .input-group-text{
+    border:  #38ada9;
+ }
