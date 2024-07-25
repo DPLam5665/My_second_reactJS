@@ -1,0 +1,85 @@
+body{
+    background-image: url('gorgeous-clouds-background-with-blue-sky-design_1017-25501.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contain{
+    
+    width: 90%;
+    height:100vh;
+    margin: 30px auto;
+}
+.contain .system-title{
+    font-size: 45pt;
+    color: #f5f6fa;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contain .search-box{
+    width:80%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.contain .weather-info{
+    margin-top: 30px;
+    font-size: 45pt;
+    color: #f5f6fa;
+    font-weight: 500;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.contain .weather-info h1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    backdrop-filter: blur(20%);
+    font-size: 45pt;
+    color: #f5f6fa;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    width: max-content;
+    max-height: max-content;
+    text-transform:capitalize;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 10px ;
+    
+}
+.contain img{
+    width: 300px;
+    height: 300px;
+}
+.contain .image{
+    flex-wrap: wrap;
+    border-radius: 10px ;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    backdrop-filter: blur(40%);
+    width:400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(850px, -630px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contain .weather-info .image .description h1{
+    width: 400px;
+    font-size: 20pt;
+    box-shadow: none;
+    color: #f5f6fa;
+    justify-content: center;
+    border-radius: 0;
+    font-weight: 700;
+}
+
